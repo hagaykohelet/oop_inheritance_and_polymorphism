@@ -21,3 +21,9 @@ class Agent:
     @staticmethod
     def get_total_agents(total_agent):
         print(f"sum of agents {total_agent}")
+
+
+
+def print_reports(agent_list):
+    for agent in agent_list:
+         agent.report()
